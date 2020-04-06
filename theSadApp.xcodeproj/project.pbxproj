@@ -56,15 +56,55 @@
 		E22BE884243ADFDF007B2FD4 /* theSadApp */ = {
 			isa = PBXGroup;
 			children = (
+				E22BE89E243AE3C0007B2FD4 /* Extensions */,
+				E22BE89D243AE3A0007B2FD4 /* Resources */,
+				E22BE89B243AE370007B2FD4 /* View Models */,
+				E22BE89A243AE36C007B2FD4 /* Models */,
+				E22BE899243AE365007B2FD4 /* View Controllers */,
 				E22BE885243ADFDF007B2FD4 /* AppDelegate.swift */,
-				E22BE887243ADFDF007B2FD4 /* SceneDelegate.swift */,
-				E22BE889243ADFDF007B2FD4 /* ViewController.swift */,
-				E22BE88B243ADFDF007B2FD4 /* Main.storyboard */,
-				E22BE88E243ADFE1007B2FD4 /* Assets.xcassets */,
-				E22BE890243ADFE1007B2FD4 /* LaunchScreen.storyboard */,
 				E22BE893243ADFE1007B2FD4 /* Info.plist */,
 			);
 			path = theSadApp;
+			sourceTree = "<group>";
+		};
+		E22BE899243AE365007B2FD4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E22BE889243ADFDF007B2FD4 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E22BE89A243AE36C007B2FD4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E22BE89B243AE370007B2FD4 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E22BE89D243AE3A0007B2FD4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E22BE887243ADFDF007B2FD4 /* SceneDelegate.swift */,
+				E22BE88B243ADFDF007B2FD4 /* Main.storyboard */,
+				E22BE88E243ADFE1007B2FD4 /* Assets.xcassets */,
+				E22BE890243ADFE1007B2FD4 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E22BE89E243AE3C0007B2FD4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
